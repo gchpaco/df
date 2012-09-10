@@ -1,0 +1,61 @@
+#dig start(31;31; Center tile of a 3x3 staircase)
+
+, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d
+,,,,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,,,,,,,,,, d,, d
+, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d
+, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,,,,,, d,, d
+, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d, d, d, d, d
+, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,,,,,, d, d, d
+, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d, d, d, d, d
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,, d, d, d,,,,,,,,,,,,,,,,,,,,,,,,,, d, d, d
+, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d,, d, d, d, d, d, d, d
+, d,, d,,,,,,,,,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,,,,,,,,,, d,, d,,,,,, d, d, d
+, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d,, d, d, d, d, d, d, d
+, d,, d,,,,,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,,,,,, d,, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,,,,,,,,,,,,,,,,,,,,,, d, d, d,,,,,,,,,,,,,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d,, d,,,,,,,,,, d, d, d, d, d, d, d, d, d, d, d,,,,,,,,,, d,, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d,, d,,,,,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,,,,,, d,, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,,,,,, d, d, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,,,,,,,,,,,,,, d, d, d,,,,,,,,,, d, d, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d,, d,,,,,,,,,, d, d, d,, d,, d,,,,,, d, d, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d,, d,,,,,,,,,, d, d, d,, d,, d,,,,,, d, d, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,,,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d
+, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,,,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d
+, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,,,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d, d, d,,,,,, d,, d,, d, d, d,,,,,,,,,, d,, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d, d, d,,,,,, d,, d,, d, d, d,,,,,,,,,, d,, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d, d, d,,,,,,,,,, d, d, d,,,,,,,,,,,,,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d, d, d,,,,,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,,,,,, d, d, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d, d, d, d, d, d, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d,, d,,,,,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,,,,,, d,, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d,, d,,,,,,,,,, d, d, d, d, d, d, d, d, d, d, d,,,,,,,,,, d,, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,,,,,,,,,,,,,, d, d, d,,,,,,,,,,,,,,,,,,,,,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d, d, d,,,,,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d, d, d, d, d, d, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d, d, d, d, d
+, d, d, d,,,,,, d,, d,,,,,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,,,,,, d,, d
+, d, d, d, d, d, d, d,, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d
+, d, d, d,,,,,, d,, d,,,,,,,,,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,,,,,,,,,, d,, d
+, d, d, d, d, d, d, d,, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d,, d, d, d, d, d,, d
+, d, d, d,,,,,,,,,,,,,,,,,,,,,,,,,, d, d, d
+, d, d, d, d, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d
+, d, d, d,,,,,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d
+, d, d, d, d, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d
+, d,, d,,,,,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d, d, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d,, d
+, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d
+, d,, d,,,,,,,,,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d
+, d,, d, d, d, d, d,, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d, d
