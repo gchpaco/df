@@ -27,6 +27,23 @@ workflow count BAR//ASH 50
 workflow count LIQUID_MISC//LYE 50
 workflow count BAR/SOAP 50
 
+# Medicine
+workflow count SPLINT 10
+workflow count CRUTCH 10
+
+# Nesting
+workflow count TOOL:ITEM_TOOL_NEST_BOX 10
+
+# Beekeeping
+workflow amount TOOL:ITEM_TOOL_HIVE 40
+workflow count TOOL:ITEM_TOOL_JUG 10
+workflow count TOOL:ITEM_TOOL_HONEYCOMB 10
+
+# Kilns & glasswork
+workflow amount BOULDER/CLAY 20
+workflow amount POWDER_MISC//PLASTER 30
+workflow amount POWDER_MISC/SAND 30
+
 ###################################################
 # Containers and Furniture
 ###################################################
@@ -94,20 +111,24 @@ workflow count LIQUID_MISC//BUSH_QUARRY:OIL 50
 workflow count BAR//BUSH_QUARRY:OIL 50
 
 # Cave Wheat
+#job item-type 1 PLANT
 #job item-material 1 GRASS_WHEAT_CAVE
 workflow count POWDER_MISC//GRASS_WHEAT_CAVE:MILL 100 10
 workflow count DRINK//GRASS_WHEAT_CAVE 50
 
 # Plump Helmets
-#job item-material 1 GRASS_WHEAT_CAVE
+#job item-type 1 PLANT
+#job item-material 1 MUSHROOM_HELMET_PLUMP
 workflow count DRINK//MUSHROOM_HELMET_PLUMP 50
 
 # Pig Tail
+#job item-type 1 PLANT
 #job item-material 1 GRASS_TAIL_PIG
 workflow amount THREAD//GRASS_TAIL_PIG:THREAD 30 20
 workflow count DRINK//GRASS_TAIL_PIG 50
 
 # Sweet Pod
+#job item-type 1 PLANT
 #job item-material 1 POD_SWEET
 # commented because it's actually easier to deal with it at the mill
 #workflow count LIQUID_MISC//POD_SWEET:EXTRACT 20 10
@@ -174,114 +195,17 @@ workflow count DRINK//BERRIES_FISHER 50
 workflow amount THREAD//REED_ROPE:THREAD 30 20
 workflow count DRINK//REED_ROPE 50
 
-###################################################
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Sun Berry
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Fisher Berry
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Bloated Tuber
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-###################################################
-#Prickle Berry
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Muck Root
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Wild Strawberry
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Rope Read
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Rat Weed
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Silver Barb
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Valley Herb
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Kobold Bulb
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Hide Root
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-###################################################
-#Blade Weed
-###################################################
-  # PlantProcess
-  # Milling
-  # Brewing
-  # Cooking
-  # Pressing
-#FIN
+# Autobutcher
+autobutcher autowatch
+autobutcher watch CAT PIG BIRD_GUINEAFOWL ALPACA BIRD_DUCK LLAMA
+autobutcher target 5 5 5 3 DOG
+
+# Autonestbox
+autonestbox start
+
+# Seedwatch
+seedwatch all 30
+seedwatch start
+
+# Burrow
+# burrow add-tiles Inside INSIDE
