@@ -1,0 +1,287 @@
+###################################################
+#Clear existing workflow settings.
+#Thank you Crashews
+###################################################
+workflow enable drybuckets auto-melt
+workflow clear all
+
+
+###################################################
+#@Food 200 Drink 500 +- 50
+###################################################
+workflow count FOOD 1000 50
+workflow count DRINK 1000 50
+
+###################################################
+#@ STEEL Production
+###################################################
+workflow count BAR//COAL 500
+workflow count BAR//IRON 100
+workflow count BAR//PIG_IRON 50
+workflow count BAR//STEEL 100
+
+###################################################
+# SOAP Production
+###################################################
+workflow count BAR//ASH 50
+workflow count LIQUID_MISC//LYE 50
+workflow count BAR/SOAP 50
+
+###################################################
+# Containers and Furniture
+###################################################
+workflow count BIN 20
+workflow count BARREL 30
+workflow count BUCKET 10
+workflow count CAGE 15
+workflow count TABLE 5
+workflow count CHAIR 5
+workflow count TOOL:ITEM_TOOL_LARGE_POT 30
+workflow count BED 10
+workflow count TOOL:ITEM_TOOL_WHEELBARROW 10
+workflow count CABINET/WOOD,STONE,METAL 10
+workflow count BOX/CLOTH,SILK,YARN 20
+workflow count BOX/WOOD,STONE,METAL 10
+
+#Leather Armor Sets
+workflow count ARMOR:ITEM_ARMOR_LEATHER 10
+workflow count BACKPACK 10
+workflow count QUIVER 10
+workflow count FLASK 10
+
+#Iron Armor Sets
+
+#Steel Armor Sets
+
+#Weapons
+    #Crossbows
+    workflow count WEAPON:ITEM_WEAPON_CROSSBOW/WOOD,BONE,METAL 40
+    #Obsidian Shortsword
+    #workflow count WEAPON:ITEM_WEAPON_SWORD_SHORT/STONE 40
+
+#Ammo
+workflow amount AMMO:ITEM_AMMO_BOLTS/METAL 1000 100
+workflow amount AMMO:ITEM_AMMO_BOLTS/WOOD,BONE 200 50
+
+# Mechanisms
+workflow count TRAPPARTS 30
+
+####
+# Strands
+####
+
+workflow count THREAD/METAL 30
+
+#####
+# Improved quality reactions
+#####
+
+# Cheese in general
+workflow count CHEESE 100
+
+###################################################
+# Plants
+###################################################
+
+# Quarry bush
+#job item-material 1 BUSH_QUARRY
+workflow count LEAVES//BUSH_QUARRY:LEAF 50
+workflow count GLOB//BUSH_QUARRY 50 10
+#This should give us cake and OIL counts
+workflow count GLOB//BUSH_QUARRY:LIQUID_MISC 50
+workflow count LIQUID_MISC//BUSH_QUARRY:OIL 50
+#This should give us Rock Nut Soap count
+workflow count BAR//BUSH_QUARRY:OIL 50
+
+# Cave Wheat
+#job item-material 1 GRASS_WHEAT_CAVE
+workflow count POWDER_MISC//GRASS_WHEAT_CAVE:MILL 100 10
+workflow count DRINK//GRASS_WHEAT_CAVE 50
+
+# Plump Helmets
+#job item-material 1 GRASS_WHEAT_CAVE
+workflow count DRINK//MUSHROOM_HELMET_PLUMP 50
+
+# Pig Tail
+#job item-material 1 GRASS_TAIL_PIG
+workflow amount THREAD//GRASS_TAIL_PIG:THREAD 30 20
+workflow count DRINK//GRASS_TAIL_PIG 50
+
+# Sweet Pod
+#job item-material 1 POD_SWEET
+# commented because it's actually easier to deal with it at the mill
+#workflow count LIQUID_MISC//POD_SWEET:EXTRACT 20 10
+workflow count POWDER_MISC//POD_SWEET:MILL 100 10
+workflow count DRINK//POD_SWEET 50
+
+# Dimple Cup
+#job item-material 1 MUSHROOM_CUP_DIMPLE
+workflow count POWDER_MISC//MUSHROOM_CUP_DIMPLE:MILL 100 10
+
+# Blade weed
+#job item-material 1 WEED_BLADE
+workflow count POWDER_MISC//WEED_BLADE:MILL 100 10
+
+# Hide root
+#job item-material 1 ROOT_HIDE
+workflow count POWDER_MISC//ROOT_HIDE:MILL 100 10
+
+# Sliver barb
+#job item-material 1 SLIVER_BARB
+workflow count POWDER_MISC//SLIVER_BARB:MILL 100 10
+workflow count DRINK//SLIVER_BARB 50
+
+# Sun berry
+#job item-material 1 BERRY_SUN
+workflow count DRINK//BERRY_SUN 50
+
+# Whip Vine
+#job item-material 1 VINE_WHIP
+workflow count POWDER_MISC//VINE_WHIP:MILL 100 10
+workflow count DRINK//VINE_WHIP 50
+
+# Muck Root
+#job item-material 1 ROOT_MUCK
+workflow count DRINK//ROOT_MUCK 50
+
+# Bloated Tuber
+#job item-material 1 TUBER_BLOATED
+workflow count DRINK//TUBER_BLOATED 50
+
+# Prickle Berry
+#job item-material 1 BERRIES_PRICKLE
+workflow count DRINK//BERRIES_PRICKLE 50
+
+# Strawberries
+#job item-material 1 BERRIES_STRAW_WILD
+workflow count DRINK//BERRIES_STRAW_WILD 50
+
+# Longland grass
+#job item-material 1 GRASS_LONGLAND
+workflow count POWDER_MISC//GRASS_LONGLAND:MILL 100 10
+workflow count DRINK//GRASS_LONGLAND 50
+
+# Rat weed
+#job item-material 1 WEED_RAT
+workflow count DRINK//WEED_RAT 50
+
+# Fisher berries
+#job item-material 1 BERRIES_FISHER
+workflow count DRINK//BERRIES_FISHER 50
+
+# Rope reed
+#job item-material 1 REED_ROPE
+workflow amount THREAD//REED_ROPE:THREAD 30 20
+workflow count DRINK//REED_ROPE 50
+
+###################################################
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Sun Berry
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Fisher Berry
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Bloated Tuber
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+###################################################
+#Prickle Berry
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Muck Root
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Wild Strawberry
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Rope Read
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Rat Weed
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Silver Barb
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Valley Herb
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Kobold Bulb
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Hide Root
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+###################################################
+#Blade Weed
+###################################################
+  # PlantProcess
+  # Milling
+  # Brewing
+  # Cooking
+  # Pressing
+#FIN

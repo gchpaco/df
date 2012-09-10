@@ -1,0 +1,37 @@
+##############################
+# Generic dwarfmode bindings #
+##############################
+
+keybinding add Ctrl-W twaterlvl
+
+# with cursor:
+keybinding add Ctrl-V digv
+keybinding add Ctrl-Shift-V digvx
+keybinding add Ctrl-C spotclean
+keybinding add Ctrl-Shift-K autodump-destroy-here
+keybinding add Ctrl-Shift-L liquids-here
+
+# any item:
+keybinding add Ctrl-K autodump-destroy-item
+
+##############################
+# Generic adv mode bindings  #
+##############################
+
+keybinding add Ctrl-B adv-bodyswap
+keybinding add Ctrl-Shift-B "adv-bodyswap force"
+
+#############################
+# Context-specific bindings #
+#############################
+
+# q->stockpile; p
+keybinding add Alt-P copystock
+
+# q->workshop
+keybinding add Ctrl-D job-duplicate
+
+# Remember to Execute 'job item-material' lines with the workshop targeted
+# They cannot be blindly executed by cutting and pasting the whole script.
+# job item lines are REM'ed but still need to be executed at the appropriate
+# workshop
