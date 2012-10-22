@@ -61,7 +61,7 @@ workflow count BOX/CLOTH,SILK,YARN 20
 workflow count BOX/WOOD,STONE,METAL 10
 
 #Leather Armor Sets
-workflow count ARMOR:ITEM_ARMOR_LEATHER 10
+workflow count ARMOR:ITEM_ARMOR_LEATHER 15
 workflow count BACKPACK 10
 workflow count QUIVER 10
 workflow count FLASK 10
