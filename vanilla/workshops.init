@@ -19,6 +19,10 @@ workflow count BAR//COAL 500
 workflow count BAR//IRON 100
 workflow count BAR//PIG_IRON 50
 workflow count BAR//STEEL 100
+workflow count BAR//100
+
+workflow count THREAD//ADAMANTINE 100
+workflow count BAR//ADAMANTINE 100
 
 ###################################################
 # SOAP Production
@@ -36,13 +40,14 @@ workflow count TOOL:ITEM_TOOL_NEST_BOX 10
 
 # Beekeeping
 workflow amount TOOL:ITEM_TOOL_HIVE 40
-workflow count TOOL:ITEM_TOOL_JUG 10
-workflow count TOOL:ITEM_TOOL_HONEYCOMB 10
+workflow count TOOL:ITEM_TOOL_JUG 40
+workflow count TOOL:ITEM_TOOL_HONEYCOMB 40
 
 # Kilns & glasswork
 workflow amount BOULDER/CLAY 20
 workflow amount POWDER_MISC//PLASTER 30
 workflow amount POWDER_MISC/SAND 30
+workflow amount ROUGH//GREEN_GLASS 100
 
 ###################################################
 # Containers and Furniture

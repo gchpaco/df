@@ -35,3 +35,14 @@ keybinding add Ctrl-D job-duplicate
 # They cannot be blindly executed by cutting and pasting the whole script.
 # job item lines are REM'ed but still need to be executed at the appropriate
 # workshop
+
+# Tweaks
+tweak stable-cursor
+tweak patrol-duty
+tweak readable-build-plate
+tweak stable-temp
+tweak fast-heat
+tweak fix-dimensions
+tweak fast-trade
+tweak military-stable-assign
+tweak military-color-assigned
